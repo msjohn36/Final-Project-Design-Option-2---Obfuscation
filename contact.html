@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Chalet de Neige | Contact</title>
+        <meta name="author" content="Mindy Johnston">
+        <meta name="description" content="Contact Chalet de Neige">
+       
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@300;600&display=swap" rel="stylesheet"> 
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1><a href="index.html">Chalet de Neige</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Accommodations">Accommodations</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <img src="images/swiss-valley.jpg" alt="Swiss valley in summer" width="1440" height="560">
+        </header>
+        <main>
+            <section id="contact">
+                <h2>Contact Us</h2>
+                        <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+                        <p>Required fields marked with a *</p>
+                        <img src="images/swiss-peak.jpg" alt="Swiss peak with snow on it during summer " width="350" height="455">
+            </section>
+            
+            <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+                <div>
+                    <label for="my-name">Full Name*</label>
+                    <input type="text" name="my-name" id="my-name" required>
+                </div>
+                <div>
+                    <fieldset>
+                        <legend>Preferred Method of Contact*</legend>
+                            <input type="radio" name="contact-pref" id="pref-email" checked>
+                            <label for="pref-email">Email</label>
+                            <input type="radio" name="contact-pref" id="pref-phone">
+                            <label for="pref-phone">Phone</label>
+                    </fieldset>
+                </div>
+                <div>
+                    <label for="my-phone">Phone Number*</label>
+                    <input type="number" name="my-phone" id="my-phone" required>
+                </div>
+                <div>
+                    <label for="my-comments">Comments<span class="required">*</span></label>
+                    <textarea name="my-comments" id="my-comments"></textarea>
+                 </div>
+                <div>
+                    <label for="my-email">Email Address*</label>
+                    <input type="email" name="my-email" id="my-email" required>
+                </div>
+                <div class="my-submit">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+            
+        </main>
+        <footer>
+            <p>Copyright &copy; 2023 - Chalet de Neige</p>
+            <p>This site is for educational purposes only</p>
+        </footer>
+    </body>
+</html>
